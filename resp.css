@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+    .nav-links{
+      display: none;
+      flex-direction: column;
+      background-color: aqua;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      width: 200px;
+      border-radius: 8px;
+      padding: 10px;
+
+    }
+    
+    .nav-links.show{
+      display: flex;
+    }
+    .hamburger{
+      display: block;
+    }
+  }
